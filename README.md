@@ -1,2 +1,2 @@
-# Mongo-Express-API
-Simple API using Express and Mongoose
+# MongoAPI
+This is a express-mongoose node js application

@@ -1,0 +1,8 @@
+curl -X POST http://localhost:3000/users -H "Content-Type: application/json" -d '{"name":"John Doe", "email":"john@example.com"}'
+curl -X POST http://localhost:3000/posts -H "Content-Type: application/json" -d '{"title":"My First Post", "content":"This is the content of the post", "author":"<USER_ID>"}'
+curl -X POST http://localhost:3000/comments -H "Content-Type: application/json" -d '{"text":"Great post!", "post":"<POST_ID>", "author":"<USER_ID>"}'
+
+
+curl -X GET http://localhost:3000/users
+curl -X GET http://localhost:3000/posts
+curl -X GET http://localhost:3000/comments
