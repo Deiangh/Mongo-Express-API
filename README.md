@@ -1,2 +1,2 @@
 # MongoAPI
-This is a express-mongoose node js application
+This is an express-mongoose node js application
